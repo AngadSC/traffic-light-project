@@ -7,14 +7,6 @@ input.onButtonPressed(Button.A, function () {
             # # # # #
             . . . . .
             `)
-    } else {
-        basic.showLeds(`
-            # # # # #
-            # . . . .
-            # # # # #
-            . . . . #
-            # # # # #
-            `)
     }
 })
 basic.forever(function () {
@@ -50,4 +42,7 @@ basic.forever(function () {
             # # # # #
             `)
     }
+})
+basic.forever(function () {
+	
 })
