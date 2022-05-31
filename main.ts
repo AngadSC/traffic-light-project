@@ -24,6 +24,12 @@ basic.forever(function () {
     basic.pause(5000)
 })
 basic.forever(function () {
+	
+})
+basic.forever(function () {
+	
+})
+basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P1) == 1) {
         basic.showLeds(`
             # # # # #
@@ -42,7 +48,4 @@ basic.forever(function () {
             # # # # #
             `)
     }
-})
-basic.forever(function () {
-	
 })
